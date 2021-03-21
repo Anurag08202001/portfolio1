@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+input {
+    margin: 300px 500px 300px 900px;
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    transition-property: all 2s;
+    transition-delay: 600ms;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+input:hover {
+    background-color: orange;
+    border: 8px solid rgb(133,0,0);
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 5px 10px gray;
+}
